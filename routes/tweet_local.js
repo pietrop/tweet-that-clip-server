@@ -10,11 +10,19 @@ module.exports = (app) => {
     const url = req.query.video;
 
     const inputFile = '/Users/doolej01/Development/tweet-that-clip-server/assets/pmqs-ts.mp4';
+<<<<<<< HEAD
     const outputfile = '/Users/doolej01/Development/tweet-that-clip-server/assets/pmqs-ts_clipped.mp4';
 
     const opts = {
       inputFile: inputFile,
       outputFile: outputfile,
+=======
+    const outputFile = '/Users/doolej01/Development/tweet-that-clip-server/assets/pmqs-ts_clipped.mp4';
+
+    const opts = {
+      inputFile: inputFile,
+      outputFile: outputFile,
+>>>>>>> d5a1140563b5f20492b0e3e7e78eb54978437afa
       inputSeconds: startTime,
       durationSeconds: (endTime - startTime),
       tweetText: 'bing bing'

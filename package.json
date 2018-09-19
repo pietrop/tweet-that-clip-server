@@ -20,6 +20,6 @@
   "dependencies": {
     "download": "^7.1.0",
     "express": "^4.16.3",
-    "tweet-that-clip": "^1.0.1"
+    "tweet-that-clip": "^1.0.2"
   }
 }
