@@ -20,6 +20,7 @@ app.use((err, req, res, next) => {
     });
 });
 
-require('./routes/tweet')(app);
+// require('./routes/tweet')(app);
+require('./routes/tweet_local')(app);
 
 module.exports = app;
