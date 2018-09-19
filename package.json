@@ -1,0 +1,24 @@
+{
+  "name": "tweet-that-clip-server",
+  "version": "1.0.0",
+  "description": "an example server to create an end point for the `tweet-that-clip` module  (https://github.com/pietrop/tweet-that-clip)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietrop/tweet-that-clip-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pietrop/tweet-that-clip-server/issues"
+  },
+  "homepage": "https://github.com/pietrop/tweet-that-clip-server#readme",
+  "dependencies": {
+    "download": "^7.1.0",
+    "express": "^4.16.3"
+  }
+}
