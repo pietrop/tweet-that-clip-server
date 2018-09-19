@@ -19,6 +19,7 @@
   "homepage": "https://github.com/pietrop/tweet-that-clip-server#readme",
   "dependencies": {
     "download": "^7.1.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "tweet-that-clip": "^1.0.1"
   }
 }
